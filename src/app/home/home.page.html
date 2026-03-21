@@ -1,0 +1,177 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-title>
+      <img src="assets/logo.png" class="logo-header">
+    </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button fill="clear" (click)="irASeccion('inicio')">
+        Inicio
+      </ion-button>
+
+      <ion-button fill="clear" (click)="irASeccion('quienes')">
+        Quiénes Somos
+      </ion-button>
+
+      <ion-button fill="clear"
+onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLScTNdICZAcgSuJ5PnK9-sgV83GkPPIBf7mOEkHPS1JcVLp95w/viewform', '_blank')">
+Presupuesto
+</ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [scrollY]="true" fullscreen="true">
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-content">
+
+      <h1>Servicios Eléctricos<br>Profesionales</h1>
+
+      <p class="hero-frase-principal">
+        Instalaciones certificadas y atención 24/7
+      </p>
+
+      <p class="hero-frase-secundaria">
+        Soluciones eléctricas seguras para hogares y empresas.
+      </p>
+
+      <div class="hero-botones">
+        
+
+        <!-- WHATSAPP -->
+       <ion-button 
+  color="warning"
+  onclick="window.open('https://wa.me/56954358478?text=Estimados%20Heurística%20Electricidad%20SPA,%20me%20gustaría%20solicitar%20información%20y%20cotización%20sobre%20sus%20servicios%20eléctricos.%20Necesito%20evaluar%20un%20trabajo%20y%20quisiera%20coordinar%20una%20visita.%20Quedo%20atento(a)%20a%20su%20disponibilidad.%20Muchas%20gracias..', '_blank')">
+  Contáctame
+</ion-button>
+
+      </div>
+
+    </div>
+  </section>
+
+   <!-- 3 PESTAÑAS -->
+<section class="servicios">
+
+  <div class="card">
+    <h3>Instalaciones</h3>
+    <p>
+      Realizamos instalaciones eléctricas seguras para viviendas y empresas,
+      cumpliendo la normativa vigente y garantizando un sistema confiable.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Emergencias <span class="destacado">24/7</span></h3>
+    <p>
+      Atención inmediata ante fallas eléctricas, cortocircuitos y problemas
+      urgentes en instalaciones domiciliarias o comerciales.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Mantención</h3>
+    <p>
+      Servicio de revisión y mantenimiento preventivo para asegurar
+      el correcto funcionamiento de tu sistema eléctrico.
+    </p>
+  </div>
+
+</section>
+<div class="servicio-item">
+  <h3>⚡ Instalaciones eléctricas</h3>
+  <p>Instalaciones seguras para viviendas y empresas cumpliendo normas técnicas.</p>
+</div>
+
+<div class="servicio-item">
+  <h3>⚡ Tableros eléctricos</h3>
+  <p>Instalación y mantenimiento de tableros para evitar sobrecargas y fallas.</p>
+</div>
+
+<div class="servicio-item">
+  <h3>⚡ Sistemas de iluminación</h3>
+  <p>Diseño e instalación de iluminación eficiente para distintos espacios.</p>
+</div>
+
+<div class="servicio-item">
+  <h3>⚡ Reparaciones eléctricas</h3>
+  <p>Solución de fallas eléctricas como cortocircuitos y problemas en interruptores.</p>
+</div>
+
+<div class="servicio-item">
+  <h3>⚡ Enchufes y tomacorrientes</h3>
+  <p>Instalación y reparación de enchufes para un uso seguro de los equipos.</p>
+</div>
+
+<div class="servicio-item">
+  <h3>⚡ Servicios para empresas</h3>
+  <p>Soluciones eléctricas para locales comerciales e instalaciones industriales.</p>
+</div>
+
+  <!-- QUIENES SOMOS -->
+  <section id="quienes" class="quienes">
+    <div class="quienes-wrapper">
+
+      <div class="quienes-img">
+      <img src="assets/quienes.jpg" alt="Equipo eléctrico">
+      </div>
+
+      <div class="quienes-texto"> 
+        <h2>Quiénes Somos</h2>
+
+        <p>
+          Somos una empresa especializada en instalaciones eléctricas
+          domiciliarias e industriales, con más de 12 años de experiencia
+          en el rubro.
+        </p>
+
+        <p>
+          Trabajamos bajo estándares de seguridad certificados,
+          ofreciendo soluciones eficientes, responsables y duraderas.
+        </p>
+
+        <p>
+          Nuestro compromiso es entregar confianza, puntualidad
+          y calidad en cada proyecto.
+        </p>
+
+        <div class="datos-contacto">
+          <p>
+  <strong>Teléfono:</strong> 
+  <a href="tel:+56954358478" class="link-contacto">
+    +56 9 5435   8478
+  </a>
+</p>
+
+<p>
+  <strong>Email:</strong> 
+  <a href="mailto:Heuristicaspa.e@gmail.com" class="link-contacto">
+    Heuristicaspa.e@gmail.com
+  </a>
+</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- ZONA DE ATENCIÓN -->
+<section class="zona-atencion">
+
+  <h2>Zona de Atención</h2>
+
+  <p>
+    ⚡ Atendemos servicios eléctricos en <strong>Santiago y alrededores</strong>.
+  </p>
+
+  <p>
+    Instalaciones eléctricas, reparaciones, mantención y emergencias.
+  </p>
+
+</section>
+
+</ion-content>
