@@ -28,7 +28,7 @@ export class HomePage {
 
   abrirWhatsApp() {
   window.open(
-    'https://wa.me/56954358478?text=Estimados%20Heurística%20Electricidad%20SPA,%20me%20gustaría%20solicitar%20información%20y%20cotización%20sobre%20sus%20servicios%20eléctricos.%20Necesito%20evaluar%20un%20trabajo%20y%20quisiera%20coordinar%20una%20visita.%20Quedo%20atento(a)%20a%20su%20disponibilidad.%20Muchas%20gracias.',
+    'https://wa.me/56954358478?text=Estimados%20Heuristica%20Electricidad%20SPA,%20me%20gustaria%20solicitar%20informacion%20y%20cotizacion%20sobre%20sus%20servicios%20electricos.%20Necesito%20evaluar%20un%20trabajo%20y%20quisiera%20coordinar%20una%20visita.%20Quedo%20atento(a)%20a%20su%20disponibilidad.%20Muchas%20gracias.',
     '_blank'
   );
 }
